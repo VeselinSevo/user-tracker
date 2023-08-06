@@ -1,0 +1,9 @@
+.close-x-button {
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.close-x-button:hover {
+    color: rgb(29, 48, 61, 0.8);
+}

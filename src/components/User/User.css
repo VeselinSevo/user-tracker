@@ -1,0 +1,27 @@
+.user-card {
+    gap: 2rem;
+}
+
+.user-card__data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-card__data p{
+    font-size: 1.2em;
+    width: 25%;
+    text-align: center;
+}
+
+.user-card__buttons {
+    display: flex;
+    gap: 1.8rem;
+}
+
+@media (max-width: 767px) {
+    .user-card {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

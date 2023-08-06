@@ -1,0 +1,10 @@
+.invalid-input-msg {
+    background-color: rgb(216, 230, 242);
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+}
+
+.invalid-input-msg__text {
+    color: rgb(237, 95, 95);
+}

@@ -1,0 +1,68 @@
+.users-filter-section {
+    padding: .8rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.users-filter-container {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.users-filter-country {
+    padding: .4rem;
+    border: 1px solid rgb(57, 54, 54, .6);
+    outline: none;
+    height: 40px;
+}
+
+.users-filter-country * {
+    padding: .4rem;
+    border-radius: 0;
+}
+
+.users-filter-adult {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+
+.users-filter-adult input[type="checkbox"] {
+    display: grid;
+    place-content: center;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: rgb(86, 153, 219);
+    width: 1em;
+    height: 1em;
+    border: 0.15em solid rgb(86, 153, 219);
+}
+
+.users-filter-adult input[type="checkbox"]::before {
+    content: "";
+    width: 1em;
+    height: 1em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    background-color: rgb(86, 153, 219);
+}
+  
+.users-filter-adult input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+
+
+@media (max-width: 767px) {
+    .users-filter-container {
+        width: 100%;
+    }
+}

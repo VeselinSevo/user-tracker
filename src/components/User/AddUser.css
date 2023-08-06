@@ -1,0 +1,67 @@
+.add-user-form  {
+    background-color: rgb(234, 245, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.add-user-form__inputs {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.add-user-form__inputs input {
+    margin-bottom: .8rem;
+    width: 100%;
+    padding: .6rem;
+    border: none;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.add-user-form__inputs label {
+    font-size: 1.3em;
+    margin-bottom: .3rem;
+}
+
+.add-user-form__inputs input[name='age'] {
+    
+}
+
+.add-user-form__inputs select {
+    background-color: white;
+    margin-bottom: .8rem;
+    width: 100%;
+    padding: .6rem;
+    border: none;
+    font-size: 1.1em;
+    text-align: center;
+    appearance: none;
+}
+
+.add-user-form__inputs option {
+    background-color: white;
+    margin-bottom: .8rem;
+    width: 100%;
+    padding: .6rem;
+    border: none;
+    font-size: 1.1em;
+    text-align: center;
+    border: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .add-user-form__inputs {
+        width: 40%;
+    }
+}

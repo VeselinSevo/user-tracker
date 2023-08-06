@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    background-color: rgb(29, 48, 61);
+    color: white;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+@media only screen and (min-width: 767px) {
+    .card {
+        width: 70%;
+        margin: 2rem auto;
+    }
+}
